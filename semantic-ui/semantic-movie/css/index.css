@@ -1,0 +1,15 @@
+.home{
+    background-color: #fff;
+}
+.home > .pusher{
+    display: block;
+    flex-direction: initial;
+}
+.main.menu{
+    top: 0;
+}
+@media only screen and(min-width: 600px){
+    .home .main.menu {
+        display: none;
+    }
+}
